@@ -1,0 +1,22 @@
+{
+  "name": "@whaaaley/paperapp",
+  "version": "0.0.0",
+  "description": "Paper-thin JavaScript framework for building frontend apps",
+  "author": "Dustin Dowell <dustindowell22@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "rollup index.js -o bundle.js -f cjs && node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whaaaley/paperapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whaaaley/paperapp/issues"
+  },
+  "homepage": "https://github.com/whaaaley/paperapp#readme",
+  "devDependencies": {
+    "rollup": "^0.51.8"
+  }
+}
