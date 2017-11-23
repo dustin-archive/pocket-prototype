@@ -1,6 +1,6 @@
 {
   "name": "@whaaaley/paperapp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Paper-thin JavaScript framework for building frontend apps",
   "author": "Dustin Dowell <dustindowell22@gmail.com>",
   "license": "MIT",
