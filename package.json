@@ -1,5 +1,5 @@
 {
-  "name": "@whaaaley/pocketapp",
+  "name": "@whaaaley/pocket",
   "version": "0.1.0",
   "description": "JavaScript framework for building frontend apps.",
   "author": "Dustin Dowell <dustindowell22@gmail.com>",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whaaaley/pocketapp.git"
+    "url": "git+https://github.com/whaaaley/pocket.git"
   },
   "bugs": {
-    "url": "https://github.com/whaaaley/pocketapp/issues"
+    "url": "https://github.com/whaaaley/pocket/issues"
   },
-  "homepage": "https://github.com/whaaaley/pocketapp#readme",
+  "homepage": "https://github.com/whaaaley/pocket#readme",
   "devDependencies": {
     "rollup": "^0.51.8"
   }

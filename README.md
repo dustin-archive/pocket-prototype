@@ -1,3 +1,3 @@
-# @whaaaley/pocketapp
+# @whaaaley/pocket
 
 > JavaScript framework for building frontend apps.
