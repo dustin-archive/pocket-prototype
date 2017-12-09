@@ -1,3 +1,3 @@
-# @whaaaley/paperapp
+# @whaaaley/pocketapp
 
-> Paper-thin JavaScript framework for building frontend apps
+> JavaScript framework for building frontend apps.

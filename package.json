@@ -1,7 +1,7 @@
 {
-  "name": "@whaaaley/paperapp",
+  "name": "@whaaaley/pocketapp",
   "version": "0.1.0",
-  "description": "Paper-thin JavaScript framework for building frontend apps",
+  "description": "JavaScript framework for building frontend apps.",
   "author": "Dustin Dowell <dustindowell22@gmail.com>",
   "license": "MIT",
   "main": "index.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whaaaley/paperapp.git"
+    "url": "git+https://github.com/whaaaley/pocketapp.git"
   },
   "bugs": {
-    "url": "https://github.com/whaaaley/paperapp/issues"
+    "url": "https://github.com/whaaaley/pocketapp/issues"
   },
-  "homepage": "https://github.com/whaaaley/paperapp#readme",
+  "homepage": "https://github.com/whaaaley/pocketapp#readme",
   "devDependencies": {
     "rollup": "^0.51.8"
   }
