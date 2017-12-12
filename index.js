@@ -1,22 +1,22 @@
 export default function (app) {
-  var _state = {}
-  var _store = {}
-  var _views = {}
+  var state = app.state
+  var store = app.store
+  var views = app.views
 
   init()
 
-  return _store
+  return store
 
   function paint () {
-    app.render(_views)
+    app.render(views)
   }
 
   function saveAction (action, scope) {
     return function (data) {
-      var update = action(_state[scope], _store[scope], data)
+      var update = action(state[scope], store[scope], data)
 
       if (typeof update === 'object') {
-        _state[scope] = update
+        state[scope] = update
         paint()
       }
     }
@@ -24,26 +24,26 @@ export default function (app) {
 
   function saveView (view) {
     return function (data) {
-      return view(_state, _store, _views, data)
+      return view(state, store, views, data)
     }
   }
 
   function init () {
     var scope
 
-    for (scope in app.store) {
-      var actions = app.store[scope]
+    for (scope in store) {
+      var actions = store[scope]
 
-      _state[scope] = {}
-      _store[scope] = {}
+      state[scope] = {}
+      store[scope] = {}
 
       for (var action in actions) {
-        _store[scope][action] = saveAction(actions[action], scope)
+        store[scope][action] = saveAction(actions[action], scope)
       }
     }
 
-    for (scope in app.views) {
-      _views[scope] = saveView(app.views[scope])
+    for (scope in views) {
+      views[scope] = saveView(views[scope])
     }
 
     paint()
