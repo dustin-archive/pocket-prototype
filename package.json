@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "module": "index.js",
   "scripts": {
-    "test": "rollup index.js -o bundle.js -f cjs && node test"
+    "build": "rollup index.js -o dist/index.js -f cjs && node test"
   },
   "repository": {
     "type": "git",
