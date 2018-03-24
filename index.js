@@ -14,7 +14,7 @@ export default function (app) {
 
   function saveAction (action, scope) {
     return function (data) {
-      var update = action(state[scope], store[scope], data)
+      var update = action(data, state[scope], store[scope])
 
       if (typeof update === 'object') {
         state[scope] = update
@@ -25,7 +25,7 @@ export default function (app) {
 
   function saveView (view) {
     return function (data) {
-      return view(state, store, views, data)
+      return view(data, state, store, views)
     }
   }
 
