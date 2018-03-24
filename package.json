@@ -16,7 +16,8 @@
     "url": "https://github.com/whaaaley/pocket/issues"
   },
   "homepage": "https://github.com/whaaaley/pocket#readme",
+  "dependencies": {},
   "devDependencies": {
-    "rollup": "^0.51.8"
+    "rollup": "^0.57.1"
   }
 }

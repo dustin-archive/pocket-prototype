@@ -1,3 +1,4 @@
+
 export default function (app) {
   var state = app.state
   var store = app.store
@@ -33,6 +34,8 @@ export default function (app) {
 
     for (scope in store) {
       var actions = store[scope]
+
+      console.log(state, scope)
 
       state[scope] = {}
       store[scope] = {}
