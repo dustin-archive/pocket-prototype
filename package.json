@@ -4,7 +4,8 @@
   "description": "JavaScript framework for building frontend apps.",
   "author": "Dustin Dowell <dustindowell22@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "index.js",
   "scripts": {
     "test": "rollup index.js -o bundle.js -f cjs && node test"
   },
