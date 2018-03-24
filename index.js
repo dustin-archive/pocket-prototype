@@ -35,8 +35,6 @@ export default function (app) {
     for (scope in store) {
       var actions = store[scope]
 
-      console.log(state, scope)
-
       state[scope] = {}
       store[scope] = {}
 
